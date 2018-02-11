@@ -15,7 +15,7 @@
 
 def speak_to_grandma(string)
   if string == "I LOVE YOU GRANDMA!"
-    return
+    return "I LOVE YOU TOO PUMPKIN!"
   elsif (string == 'WHAT DID YOU EAT TODAY?')
     return "NO, NOT SINCE 1938!"
   elsif string == 'WHAT?'

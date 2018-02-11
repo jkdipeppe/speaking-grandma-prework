@@ -14,11 +14,11 @@
 def speak_to_grandma(string)
   if string == string.upcase
     puts string
-  elseif (string == 'WHAT DID YOU EAT TODAY?')
+  elsif (string == 'WHAT DID YOU EAT TODAY?')
     puts "NO, NOT SINCE 1938!"
-  elseif string == 'WHAT?'
+  elsif string == 'WHAT?'
     puts "NO, NOT SINCE 1938!"
-  elseif (string == 'I LOVE YOU GRANDMA!')
+  elsif (string == 'I LOVE YOU GRANDMA!')
     puts 'I LOVE YOU TOO PUMPKIN!'
   else
     puts 'HUH?! SPEAK UP, SONNY!'

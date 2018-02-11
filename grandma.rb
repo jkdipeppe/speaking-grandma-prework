@@ -15,14 +15,14 @@
 
 def speak_to_grandma(string)
   if string == string.upcase
-    puts string
+    return string
   elsif (string == 'WHAT DID YOU EAT TODAY?')
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   elsif string == 'WHAT?'
-    puts "NO, NOT SINCE 1938!"
+    return "NO, NOT SINCE 1938!"
   elsif (string == 'I LOVE YOU GRANDMA!')
-    puts 'I LOVE YOU TOO PUMPKIN!'
+    return 'I LOVE YOU TOO PUMPKIN!'
   elsif string != string.upcase
-    puts 'HUH?! SPEAK UP, SONNY!'
+    return 'HUH?! SPEAK UP, SONNY!'
   end
 end
